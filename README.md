@@ -1,20 +1,11 @@
 # NeuraNova — AI Technology Website
 
-A responsive AI-company landing page built with HTML and CSS.
+Group 3 project: a responsive AI-company showcase built with HTML5 and CSS3.
 
-## Sections
-- Hero introduction and navigation
-- AI solutions: intelligent automation, AI analytics, and conversational AI
-- About section and guiding principles
-- Team cards
-- Contact section
+## Run
+Open `index.html` in a browser.
 
-## Run locally
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
+## Included
+AI product cards, application areas, company approach, team profiles, and contact section.
 
-## Technologies
-- HTML5
-- CSS3 (responsive layout with media queries)
-
-This is a front-end student project. The company, team members, and contact details are illustrative placeholders.
+This is a fictional educational concept website. Product names, company details, team members, and email are sample content; no real AI products or backend services are connected.
