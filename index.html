@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NeuraNova builds practical AI solutions for a smarter future.">
+  <title>NeuraNova | AI for What's Next</title>
+  <style>
+    :root{--bg:#080d1c;--panel:#111a30;--text:#f4f7ff;--muted:#aab5cc;--cyan:#63e6e2;--violet:#9c8cff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+    header{position:sticky;top:0;background:rgba(8,13,28,.92);backdrop-filter:blur(12px);border-bottom:1px solid #26314a;z-index:5}
+    nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:1.35rem;font-weight:800;letter-spacing:.5px}.logo span{color:var(--cyan)}
+    .links{display:flex;gap:25px;color:var(--muted);font-size:.95rem}.links a:hover{color:var(--cyan)}
+    .btn{display:inline-block;padding:12px 19px;border-radius:9px;background:linear-gradient(100deg,var(--cyan),var(--violet));color:#08101e;font-weight:700}
+    .hero{padding:105px 0 90px;background:radial-gradient(ellipse at 75% 20%,#39306b66,transparent 42%),radial-gradient(ellipse at 15% 65%,#0d858555,transparent 38%)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}.eyebrow{color:var(--cyan);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+    h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.06;margin:16px 0 22px;letter-spacing:-2px}h1 span{background:linear-gradient(90deg,var(--cyan),var(--violet));-webkit-background-clip:text;color:transparent}
+    .lead{color:var(--muted);font-size:1.12rem;max-width:600px;margin-bottom:30px}.hero-art{min-height:330px;border:1px solid #39466a;border-radius:28px;background:linear-gradient(145deg,#182743,#17132f);display:grid;place-items:center;position:relative;overflow:hidden}
+    .orb{width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#d4ffff,#63e6e2 22%,#7669d9 60%,#302c68);box-shadow:0 0 70px #63e6e277;position:relative}
+    .orb:before,.orb:after{content:"";position:absolute;border:1px solid #9cefea88;border-radius:50%;inset:-35px;transform:rotateX(65deg) rotate(-25deg)}.orb:after{inset:-60px;transform:rotateX(65deg) rotate(35deg)}
+    section{padding:82px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 42px}.section-head h2{font-size:2.25rem;margin:8px 0}.section-head p,.muted{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:27px;border:1px solid #283552;background:var(--panel);border-radius:16px}.icon{font-size:1.8rem}.card h3{margin:14px 0 8px}.card p{color:var(--muted);margin:0}
+    .about{background:#0c1427}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about h2{font-size:2.3rem;line-height:1.2}.stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.stat{padding:22px;background:#121e36;border-radius:14px;border:1px solid #2b3b5b}.stat strong{display:block;font-size:2rem;color:var(--cyan)}
+    .team .card{text-align:center}.avatar{width:76px;height:76px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--cyan),var(--violet));color:#091020;font-size:1.5rem;font-weight:800}
+    .contact{background:linear-gradient(120deg,#152744,#201b43);text-align:center;border-radius:22px;padding:55px 25px}.contact p{color:var(--muted)}
+    footer{padding:25px 0;border-top:1px solid #26314a;color:var(--muted);text-align:center;font-size:.9rem}
+    @media(max-width:760px){.hero-grid,.about-grid{grid-template-columns:1fr}.hero{padding:75px 0}.hero-art{min-height:260px}.cards{grid-template-columns:1fr}.links{gap:12px;font-size:.82rem}.nav-cta{display:none}section{padding:65px 0}}
+    @media(max-width:430px){.links{gap:9px}.logo{font-size:1.1rem}h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav><a class="logo" href="#home">Neura<span>Nova</span></a><div class="links"><a href="#about">About</a><a href="#solutions">Solutions</a><a href="#team">Team</a><a href="#contact">Contact</a></div><a class="btn nav-cta" href="#contact">Let's Talk</a></nav></div></header>
+<main>
+  <section class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">Intelligence. Innovation. Impact.</div><h1>AI for a world of <span>new possibilities.</span></h1><p class="lead">We turn complex technology into useful, human-centered AI solutions that help people and businesses move forward.</p><a class="btn" href="#solutions">Explore our solutions</a></div><div class="hero-art" aria-label="Abstract glowing AI-inspired sphere"><div class="orb"></div></div></div></section>
+  <section id="solutions"><div class="wrap"><div class="section-head"><div class="eyebrow">What we do</div><h2>Technology with a purpose</h2><p>Explore practical AI capabilities designed to make everyday work smarter, faster, and more accessible.</p></div><div class="cards">
+    <article class="card"><div class="icon">✦</div><h3>Intelligent Automation</h3><p>Reduce repetitive work with thoughtful workflows that give teams more time for meaningful tasks.</p></article>
+    <article class="card"><div class="icon">⌘</div><h3>AI Analytics</h3><p>Turn information into clear insights that support better-informed decisions.</p></article>
+    <article class="card"><div class="icon">◎</div><h3>Conversational AI</h3><p>Create helpful digital experiences that understand questions and guide users to answers.</p></article>
+  </div></div></section>
+  <section class="about" id="about"><div class="wrap about-grid"><div><div class="eyebrow">About NeuraNova</div><h2>Building a future where technology works for everyone.</h2><p class="muted">Our approach brings together research, design, and responsible engineering. We focus on useful applications, clear experiences, and solutions that keep people at the center.</p><a class="btn" href="#contact">Connect with us</a></div><div class="stat-grid"><div class="stat"><strong>01</strong>Human-centered design</div><div class="stat"><strong>02</strong>Responsible innovation</div><div class="stat"><strong>03</strong>Practical solutions</div><div class="stat"><strong>04</strong>Continuous learning</div></div></div></section>
+  <section id="team" class="team"><div class="wrap"><div class="section-head"><div class="eyebrow">Our people</div><h2>A team curious about tomorrow</h2><p>Different skills, one shared goal: making technology more useful.</p></div><div class="cards"><article class="card"><div class="avatar">AR</div><h3>Alex Rivera</h3><p>AI Research</p></article><article class="card"><div class="avatar">JM</div><h3>Jordan Miller</h3><p>Product Design</p></article><article class="card"><div class="avatar">SK</div><h3>Sam Kim</h3><p>Engineering</p></article></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact"><div class="eyebrow">Start a conversation</div><h2>Have an idea worth exploring?</h2><p>Let's talk about how thoughtful AI can help bring it to life.</p><a class="btn" href="mailto:hello@neuranova.example">hello@neuranova.example</a></div></div></section>
+</main>
+<footer><div class="wrap">© 2026 NeuraNova. A student HTML &amp; CSS project.</div></footer>
+</body>
+</html>
